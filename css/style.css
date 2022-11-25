@@ -1,42 +1,60 @@
 /* коріння */
 :root {
-    --color-logo-buton: #2196F3; 
+    --color-logo-button: #2196F3; 
     --color-text-header: #000000;
     --color-text-primary: #757575;
     --color-text-secondary: #212121; 
+    --color-bcg-head-foot: #2F303A;
+    --color-white-txt: #FFFFFF;
+
 }
 
 body {
     color: var(--color-text-primary);
-    font-family: roboto, serif;
-
+    background: #FFFFFF;
+    font-family: 'roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
 }
+/* Порада від ментора, нічого не зрозуміло але вставлю */
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.site-nav, 
+.link.current {
+    color: var(--color-logo-button);
+}
 .list {
     list-style: none;
 }
 
-/* header  */
-.header {
-    background-color: #FFFFFF;
-}
 /* logo */
 
 .accent {
-    color: var(--color-logo-buton);
+    color: var(--color-logo-button);
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     
 }
-.logo {
+.header-logo {
     color: var(--color-text-header);
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -54,8 +72,9 @@ body {
     letter-spacing: 0.02em;
 
 }
-.link:hover {
-    color: #2196F3;
+.link:hover, 
+.link:focus {
+    color: var(--color-logo-button);
 }
 .aside {
     color: var(--color-text-secondary);
@@ -64,17 +83,18 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.aside:hover {
-    color: #2196F3;
+.aside:hover,
+.aside:focus {
+    color: var(--color-logo-button);
 }
 
 /* hero */
 
 .hero-title {
-    background-color: #2F303A;
+    background-color: var(--color-bcg-head-foot);
 }
 .hero-text {
-    color: #FFFFFF;
+    color: var(--color-white-txt);
     text-align: center;
     text-transform: uppercase;
 
@@ -84,8 +104,9 @@ body {
     letter-spacing: 0.06em;
 }
 .button {
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--color-white-txt);
+    background-color: var(--color-logo-button);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -119,13 +140,38 @@ body {
 }
 .user {
     color: var(--color-text-secondary);
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .user-text {
-        font-size: 16px;
-        line-height: 1.2px;
-        letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+}
+/* footer  */
+.footer {
+    background-color: var(--color-bcg-head-foot)
+}
+.address {
+    font-style: normal;
+}
+.footer-logo {
+    color: var(--color-white-txt);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.footer-aside {
+    color: rgba(255, 255, 255,0.6);
+    text-decoration: none;
+}
+.footer-link {
+    color: var(--color-white-txt);
+    text-decoration: none;
 }
