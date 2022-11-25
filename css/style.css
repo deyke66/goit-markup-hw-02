@@ -1,34 +1,106 @@
 /* коріння */
 :root {
-    --color-logo: #2196F3; 
+    --color-logo-buton: #2196F3; 
     --color-text-header: #000000;
     --color-text-primary: #757575;
     --color-text-secondary: #212121;
 }
 
+body {
+    color: var(--color-text-primary);
+    font-family: roboto, serif;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    
+}
+
+/* header  */
+.header {
+    background-color: #FFFFFF;
+}
 /* logo */
+
 .accent {
-    color: var(--color-logo);
+    color: var(--color-logo-buton);
     text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
 }
 .logo {
     color: var(--color-text-header);
     text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
 }
 
 /* Nav */
 
-.site-nav .link {
+.link {
     color: var(--color-text-secondary);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
+}
+.link:hover {
+    color: #2196F3;
 }
 .aside {
     color: var(--color-text-secondary);
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-/* Основні */
-.body {
-    color: var(--color-text-primary);
+.aside:hover {
+    color: #2196F3;
+}
 
+/* hero */
+
+.hero-title {
+    background-color: #2F303A;
+}
+.hero-text {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+}
+
+/* hidden section  */
+
+.section-main {
+    background-color: #F5F5F5;;
+}
+.section-title {
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
