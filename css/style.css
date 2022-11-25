@@ -1,0 +1,34 @@
+/* коріння */
+:root {
+    --color-logo: #2196F3; 
+    --color-text-header: #000000;
+    --color-text-primary: #757575;
+    --color-text-secondary: #212121;
+}
+
+/* logo */
+.accent {
+    color: var(--color-logo);
+    text-decoration: none;
+}
+.logo {
+    color: var(--color-text-header);
+    text-decoration: none;
+}
+
+/* Nav */
+
+.site-nav .link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+
+}
+.aside {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+}
+/* Основні */
+.body {
+    color: var(--color-text-primary);
+
+}
