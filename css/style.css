@@ -3,7 +3,7 @@
     --color-logo-buton: #2196F3; 
     --color-text-header: #000000;
     --color-text-primary: #757575;
-    --color-text-secondary: #212121;
+    --color-text-secondary: #212121; 
 }
 
 body {
@@ -15,7 +15,10 @@ body {
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
-    
+}
+
+.list {
+    list-style: none;
 }
 
 /* header  */
@@ -38,7 +41,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    
 }
 
 /* Nav */
@@ -91,7 +93,7 @@ body {
 
 }
 
-/* hidden section  */
+/* main sections  */
 
 .section-main {
     background-color: #F5F5F5;;
@@ -103,4 +105,27 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase
+}
+.title {
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-worker {
+    background-color: #F5F4FA;
+}
+.user {
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.user-text {
+        font-size: 16px;
+        line-height: 1.2px;
+        letter-spacing: 0.03em;
 }
