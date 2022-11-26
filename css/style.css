@@ -170,6 +170,8 @@ body {
     background-color: var(--color-white-txt);
 }
 
+/* portfolio  */
+
 .portfolio-title {
     color: var(--color-text-secondary);
     font-weight: 700;
