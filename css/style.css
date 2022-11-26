@@ -1,6 +1,6 @@
 /* коріння */
 :root {
-    --color-logo-button: #2196F3; 
+    --color-blue: #2196F3; 
     --color-text-header: #000000;
     --color-text-primary: #757575;
     --color-text-secondary: #212121; 
@@ -14,7 +14,6 @@ body {
     background: #FFFFFF;
     font-family: 'roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -36,7 +35,7 @@ body {
 
 .site-nav, 
 .link.current {
-    color: var(--color-logo-button);
+    color: var(--color-blue));
 }
 .list {
     list-style: none;
@@ -45,7 +44,7 @@ body {
 /* logo */
 
 .accent {
-    color: var(--color-logo-button);
+    color: var(--color-blue);
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -74,7 +73,7 @@ body {
 }
 .link:hover, 
 .link:focus {
-    color: var(--color-logo-button);
+    color: var(--color-blue);
 }
 .aside {
     color: var(--color-text-secondary);
@@ -85,7 +84,7 @@ body {
 }
 .aside:hover,
 .aside:focus {
-    color: var(--color-logo-button);
+    color: var(--color-blue);
 }
 
 /* hero */
@@ -105,7 +104,7 @@ body {
 }
 .button {
     color: var(--color-white-txt);
-    background-color: var(--color-logo-button);
+    background-color: var(--color-blue);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -114,7 +113,7 @@ body {
 
 }
 
-/* main sections  */
+/*  sections  */
 
 .section-main {
     background-color: #F5F5F5;;
