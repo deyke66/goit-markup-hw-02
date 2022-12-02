@@ -7,14 +7,14 @@
     --color-text-secondary: #212121; 
     --color-bcg-head-foot: #2F303A;
     --color-white-txt: #FFFFFF;
+    --color-sect-worker: #F5F4FA;
 
 }
 
 body {
     color: var(--color-text-primary);
-    background: #FFFFFF;
+    background: var(--color-white-txt);
     font-family: 'roboto', sans-serif;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
@@ -127,6 +127,10 @@ body {
     letter-spacing: 0.03em;
     
 }
+.portfolio-button:focus,
+.portfolio-button:hover {
+    background-color: var(--color-btn-focus)
+}
 /*  sections  */
 
 .section-title {
@@ -149,7 +153,7 @@ body {
 /* worker  */
 
 .section-worker {
-    background-color: #F5F4FA;
+    background-color: var(--color-sect-worker);
 }
 .user {
     color: var(--color-text-secondary);
@@ -162,7 +166,7 @@ body {
 .user-text {
     text-align: center;
     font-size: 16px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
