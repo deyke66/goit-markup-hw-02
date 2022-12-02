@@ -40,6 +40,7 @@ body {
 }
 .list {
     list-style: none;
+
 }
 
 /* logo */
@@ -211,4 +212,9 @@ body {
 .footer-link {
     color: var(--color-white-txt);
     text-decoration: none;
+}
+
+.portfolio-item {
+    text-decoration: none;
+    color: var(--color-text-primary);
 }
